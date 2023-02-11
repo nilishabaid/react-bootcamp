@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Clicker extends Component {
+  // TODO: Add a state named "state" to keep track of how many times your button has been clicked
+
+  handleClick = () => {
+    // TODO: update the state to increase the number of clicks
+  };
+
+  render() {
+    return (
+      // TODO: create a header to display the number of clicks and a button to be pressed
+    );
+  }
 }
 
-export default App;
+export default Clicker;
